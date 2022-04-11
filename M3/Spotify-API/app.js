@@ -121,14 +121,14 @@ const UIController = (function() {
             detailDiv.innerHTML = '';
             const html = 
             `
-            <div class="row col-sm-12 px-0">
-                <img src="${img}" alt="">        
+            <div>
+                <img src="${img}" style="width:300px;">        
             </div>
-            <div class="row col-sm-12 px-0">
-                <label for="Genre" class="form-label col-sm-12">${title}:</label>
+            <div>
+                <h1 style="color:#1ed760">${title}</h1>
             </div>
-            <div class="row col-sm-12 px-0">
-                <label for="artist" class="form-label col-sm-12">By ${artist}:</label>
+            <div>
+                <h3>${artist}</h3>
             </div> 
             `;
             detailDiv.insertAdjacentHTML('beforeend', html)

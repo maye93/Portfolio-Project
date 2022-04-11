@@ -5,23 +5,12 @@
   src: url('./font/GothamMedium.otf');
 }
 html, body {
-  background-color: #121212;
-  font-family: 'gothamMedium';
-  color: white;
+  background-color: #121212 !important;
+  font-family: 'gothamMedium'!important;
+  color: white !important;
 }
-
-.column {
-  width: 50%;
-  padding-top: 30px;
-}
-.row {
-  display: inline-block;
-  align-items: center;
-}
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+div {
+  padding-top: 10px;
 }
 
 select {
@@ -38,20 +27,13 @@ option {
 }
 button {
   border: none;
-  border-radius: 100px;
+  border-radius: 100px !important;
   background-color: #1db954 !important;
   font-family:'gothamMedium';
   color: white;
   font-size: 20px;
   width: 200px;
   height: 50px;
-}
-button.hover {
-  background-color: #1ed760 !important;
-}
-img {
-  width: 100px;
-  height: 100px;
 }
 .song-list {
   border: 50px;
