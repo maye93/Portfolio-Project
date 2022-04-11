@@ -1,0 +1,60 @@
+html {
+    background-color: orange;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+p {
+    text-align: justify;
+    clear: both;
+}
+body {
+    font-family: 'Outfit';
+    font-size: 22px;
+}
+
+/* AVATAR WITH NAME */
+.intro {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1000px;
+}
+.avatar {
+    display: block;
+    margin-right: 20px;
+    float: left;
+    width: 200;
+    border-radius: 50%;
+}
+h1 {
+    color: white;
+    line-height: 10%;
+}
+.name {
+    text-align: middle;
+    display: inline-block;
+    font-family: 'Outfit';
+    font-size: 22px;
+}
+
+/* ABOUT ME */
+.about {
+    line-height: 95%;
+    margin-top: -120px;
+    margin-left: 220px;
+    align-content: center;
+}
+
+/* MY GOALS */
+.goals {
+    background-color: black;
+    color: white;
+}
+.bigImage {
+    clear:both;
+    float: right;
+    display: block;
+    margin-left: 20px;
+    height: 400px;
+}

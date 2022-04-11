@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+@font-face {
+  font-family: 'gothamMedium';
+  src: url('./font/GothamMedium.otf');
+}
+html, body {
+  background-color: #121212;
+  font-family: 'gothamMedium';
+  color: white;
+}
+
+.column {
+  width: 50%;
+  padding-top: 30px;
+}
+.row {
+  display: inline-block;
+  align-items: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+select {
+  border:none;
+  border-radius:100px;
+  width: 200px;
+  height: 30px;
+  font-family:'gothamMedium';
+  text-align: center;
+  color: #333;
+}
+option {
+  color: #959caf;
+}
+button {
+  border: none;
+  border-radius: 100px;
+  background-color: #1db954 !important;
+  font-family:'gothamMedium';
+  color: white;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+}
+button.hover {
+  background-color: #1ed760 !important;
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.song-list {
+  border: 50px;
+  width: 400px;
+}

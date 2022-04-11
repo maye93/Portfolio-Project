@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="app.css">
+    <title>Quote Generator</title>
+  </head>
+  <body>
+      <div class="container">
+        <div class="people">
+          <button id="Arthur"class="buttonPerson"><img src="images/arthur.jpeg"></button>
+          <button id="Phoebe"class="buttonPerson"><img src="images/phoebe.jpg"></button>
+          <button id="Charlie"class="buttonPerson"><img src="images/charlie.jpg"></button>
+          <button id="Margaret"class="buttonPerson"><img src="images/margaret.jpg"></button>
+          <button id="Geralt"class="buttonPerson"><img src="images/geralt.jpg"></button>
+        </div>
+        <div class="personQuote">
+          <p id="quote"></p>
+          <img id="image">
+          <h3 id="person"></h3>
+        </div>
+        <div class="people">
+          <button id="getQuote" onclick="getQuote()" hidden="hidden">Get Quote</button>
+        </div>
+      </div>
+    <script src ="app.js"></script>
+  </body>
+</html>

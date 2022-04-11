@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'tungstenBold';
+    src: url('./font/TungstenBold.otf');
+}
+@font-face {
+    font-family: 'valorantFont';
+    src: url('./font/ValorantFont.ttf');
+}
+
+body{
+    padding-top: 50px;
+    margin: 0;
+    background-image: linear-gradient(#080f1d, #47719e);
+    color: white;
+}
+
+h1 {
+    font-family: 'valorantFont';
+    font-size: 50px;
+    color: #e63045;
+}
+.showcase {
+    position: relative;
+    text-align: center;
+    width: 1500px;
+}
+.top-left {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-family: 'tungstenBold';
+    font-size: 100px;
+}
+.bottom-left {
+    position: absolute;
+    top: 140px;
+    left: 30px;
+    font-family: arial;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+button {
+    padding: 20px 20px 0 0px;
+    background-color: transparent;
+    border: none;
+}
+img {
+    border: 1px solid white;
+}

@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="app.css">
+		<title>Calorie Tracker</title>
+	</head>
+	<body>
+		<div>
+			<h2>Calorie Tracker</h2>
+
+			<p>Age</p>
+			<input id="age" maxlength="2" onkeypress="validate(event)">
+
+			<p>Gender</p>
+			<select id="gender">
+				<option selected value="male">Male</option>
+				<option value="female">Female</option>
+			</select>
+
+			<p>Height</p>
+			<input id="height" placeholder="centimeters (cm)" onkeypress='validate(event)'>
+			
+			<p>Weight</p>
+			<input id="weight" placeholder="kilograms (kg)" onkeypress='validate(event)'>
+			
+			<p>Activity</p>
+			<select id="activity">
+				<option selected value="1">Sedentary</option>
+				<option value="2">Lightly Active</option>
+				<option value="3">Moderately Active</option>
+				<option value="4">Very Active</option>
+				<option value="5">Extra Active</option>
+			</select>
+
+			<p id="result"></p>
+			<button id="btn" onClick="calculate()">Calculate</button>
+		</div>
+		<script src ="app.js"></script>
+	</body>
+</html>
